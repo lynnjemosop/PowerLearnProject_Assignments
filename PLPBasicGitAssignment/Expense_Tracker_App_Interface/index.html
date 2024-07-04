@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: cadetblue;
+            justify-content: center;
+            align-items: center;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .buttonstyle{
+            background-color: purple;
+            color: #ddd;
+            height: 36px;
+            width: 106px;
+            cursor: pointer;
+        }
+        .katikati{
+            justify-content: center;
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="bodytopons">
+    <header>
+        <h1>Welcome to the Expense Tracker Application</h1>
+    </header>
+
+    <h2>Track Your Expenses Easily</h2>
+    <p>Use this application to manage your expenses and keep track of your financial health.</p>
+
+    <h3 align-text="center">Register</h3>
+    <form class="katikati">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit" class="buttonstyle">Register</button>
+    </form>
+
+    <h3>User Information</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Amos Kiptoo</td>
+            <td>amoskiptoo@gmail.com</td>
+            <td>0976788890</td>
+        </tr>
+        <tr>
+            <td>Jacy Areko</td>
+            <td>jackyariako@gmail.com</td>
+            <td>071234567</td>
+        </tr>
+    </table>
+
+    <h3>Expense Tracker Logo</h3>
+    <img src="https://via.placeholder.com/150" alt="Expense Tracker Logo">
+
+    <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+</body>
+</html>
